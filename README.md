@@ -1,5 +1,7 @@
-# Arduino_Tools
-[![GitHub release](https://img.shields.io/github/release/stm32duino/Arduino_Tools.svg)](https://github.com/stm32duino/Arduino_Tools/releases/latest)
-[![GitHub commits](https://img.shields.io/github/commits-since/stm32duino/Arduino_Tools/2.4.0.svg)](https://github.com/stm32duino/Arduino_Tools/compare/2.4.0...main)
+# OpenPLC_Arduino_Tool
 
-Contains upload tools for STM32 based boards and some other usefull scripts.
+Upload tools shipped with the OpenPLC Arduino board package as the `STM32Tools` tool.
+`win/`, `linux/` and `macosx/` carry `IAPTool`, built from [OpenPLC_IAPTool](https://github.com/OpenPLCs/OpenPLC_IAPTool).
+The board package index points at the `STM32Tools` asset of each release here.
+
+Based on [stm32duino/Arduino_Tools](https://github.com/stm32duino/Arduino_Tools), which provides the other upload tools and scripts.
