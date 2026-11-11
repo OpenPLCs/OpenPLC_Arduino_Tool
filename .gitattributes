@@ -41,6 +41,9 @@
 *.txt text eol=lf
 *.yml text eol=lf
 
+# macOS launcher, run directly by the IDE: a CRLF shebang does not run.
+macosx/IAPTool text eol=lf
+
 # Denote all files that are truly binary and should not be modified.
 dfu-prefix binary
 dfu-suffix binary
